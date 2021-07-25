@@ -5,7 +5,7 @@ import Cart from '../components/Cart';
 import { idbPromise } from '../utils/helpers';
 
 import { Link, useParams } from 'react-router-dom';
-import { useQuery } from '@apollo/client';
+import { useQuery } from '@apollo/react-hooks';
 
 import { QUERY_PRODUCTS } from '../utils/queries';
 import spinner from '../assets/spinner.gif';
